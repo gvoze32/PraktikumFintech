@@ -24,6 +24,12 @@ class MainActivity : AppCompatActivity() {
         btnHome.setOnClickListener {
             loadFragment(HomeFragment())
         }
+        btnSettings.setOnClickListener {
+            loadFragment(SettingsFragment())
+        }
+        btnProfile.setOnClickListener {
+            loadFragment(ProfileFragment())
+        }
     }
     private fun loadFragment(fragment: androidx.fragment.app.Fragment) {
         supportFragmentManager.beginTransaction()
