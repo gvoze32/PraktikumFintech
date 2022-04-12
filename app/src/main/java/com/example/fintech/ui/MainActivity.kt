@@ -1,7 +1,8 @@
-package com.example.fintech
+package com.example.fintech.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.fintech.R
 
 class MainActivity : AppCompatActivity() {
     private lateinit var btnHome : android.widget.Button
